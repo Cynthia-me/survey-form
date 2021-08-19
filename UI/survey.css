@@ -1,0 +1,71 @@
+body,html{
+    /* margin:0; */
+    padding:0;
+    height: 100%;
+    background-color:cadetblue;
+  }
+  
+  *{
+    box-sizing:border-box;
+   
+  }
+  #survey-form{
+      margin: 0 auto;
+      width: 50%;
+      box-shadow: 10px 10px 10px 10px black;
+  }
+
+ 
+
+  label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 0.3rem;
+   background-color:blanchedalmond;
+   font-family: forte;
+   color:rgb(112, 80, 49);
+  }
+  input{
+    padding: 0.3rem;
+    margin:0.3rem;
+    background-color: rgb(172, 218, 219);
+  }
+  p,h1{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  p{
+    color:white;
+    font-family: forte;
+    font-size: 1.5rem;
+  }
+  h1{
+    font-family: cursive;
+    color:orange;
+    font-style: italic;
+  }
+  .area label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: blanchedalmond;
+  }
+  button{
+    margin: 0 1rem;
+  }
+ 
+  @media screen and (max-width:600px){
+    #survey-form{
+      width: 100%;
+    }
+  }
